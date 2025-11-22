@@ -48,13 +48,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 Note: PyAudio is required for microphone input. On Windows, it may fail via pip; use pipwin install pyaudio.
+
 ---
-5. Run the assistant
+### 5. Run the assistant
 ```bash
 python alexa.py
 ```
 ---
-📂 Project Structure
+### 📂 Project Structure
 ```bash
 .
 ├── alexa.py         # Main voice assistant script
